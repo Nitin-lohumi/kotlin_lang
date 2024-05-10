@@ -1,15 +1,23 @@
 fun main(){
-//    val number:Int=12;
-    var number:Int= 15;
-   do{
-     println(number);
-       number--
-//       if(number==12){
-//           println("break statement is occur");
-//           return;
-//       }
-   }
-       while (number>=10);
-//    println(res);
+val arr = arrayOf("hello","nitin");
+    arr[1]="lohumi";
+    println(arr[1]);
+    println(arr.size)
+    if("helo " in arr){
+        println("good");
+
+    }
+    else{
+        println("not good");
+    }
+    for(x in arr){
+        println(x);
+    }
+    for (nums in 5..15) {
+        println(nums)
+    }
+    for(n in 'a' ..'z'){
+        println(n);
+    }
 }
 
