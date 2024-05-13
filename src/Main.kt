@@ -1,19 +1,82 @@
 fun main(){
-
-    val obj = Car("lohumi");
-    println(obj.brand);
-    obj.trunON();
+    val list = listOf(1,2,-3,4,-5,6,-7,8,-9);
+    val positive = list.filter { x:Int->x>0};
+    val negative = list.filter { x:Int ->x<0};
+    println("the positive number is  $positive" );
+    println("the negative number is $negative");
+    val time = inSecond("min");
+    println(time);
+//    second("hey");
+}
+fun inSecond(time:String):(Int)->Int= when(time){
+    "min"->{value ->value*60};
+    "hours"-> { value -> value *100};
+    else-> {value -> value};
+}
+fun second(t:String): (Int) -> Unit = {
+    val a = {v:String-> v+ "hello"};
+    println(a);
+    println(t);
 }
 
-class Car(var Name:String)
-{
-    var brand:String=Name;
-    var model:String=""
-    var year:Int =0;
-    fun trunON(){
-        println("function is running ");
-    }
 
-}
+
+
+
+
+
+
+
+
+//open public class vichile {
+//    fun m():Boolean{
+//        println("hello this is vichile from super class");
+//        return true;
+//    }
+//}
+//class Car(var Name:String):vichile()
+//{
+//    var brand:String=Name;
+//    val model:String="asc";
+//    var year:Int = 0;
+//    fun trunON(){
+//        println("function is running ");
+//    }
+//}
+//    val cakes = listOf("cake","as","ash");
+//    val num =10;
+//    for(number in cakes){
+//        println(number);
+//    }
+//    val  arr = arrayOf("nitin","shubham");
+//    if(num==10){
+//        println("yes it is");
+//    }
+//    val arr = arrayOf("nitin ","shubham","nirmal ","mayank");
+//    var i=-1;
+//    for( number:String in arr){
+//        i++;
+//        when(i) {
+//            0 -> println("hey this in nitin")
+//            1 -> println("this is shubham")
+//            else -> println("this is invalid action" )
+//        }
+//    };
+
+//for(number: in 10 downTo 1 step 1){
+    //     println("the 10 is less  then $number" );
+// }
+
+//fun sum(x:Int ,y:Int){
+//    val sum = x+y;
+//    println("the sum of the number is $sum");
+//}
+//fun FunStirngPara(str1:String,str2:String,str3:String="is good"):String{
+//    val str:String= str1 + " " + str2 + " "+ str3;
+//    return str;
+//}
+//**** these are example and they are inside the main f
+
+
 
 
