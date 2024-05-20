@@ -1,33 +1,18 @@
 fun main(){
-    val list = listOf(1,2,-3,4,-5,6,-7,8,-9);
-    val positive = list.filter { x:Int->x>0};
-    val negative = list.filter { x:Int ->x<0};
-    println("the positive number is  $positive" );
-    println("the negative number is $negative");
-    val time = inSecond("min");
-    println(time);
-//    second("hey");
-}
-fun inSecond(time:String):(Int)->Int= when(time){
-    "min"->{value ->value*60};
-    "hours"-> { value -> value *100};
-    else-> {value -> value};
-}
-fun second(t:String): (Int) -> Unit = {
-    val a = {v:String-> v+ "hello"};
-    println(a);
-    println(t);
+
 }
 
+//    val list = listOf(1,2,-3,4,-5,6,-7,8,-9);
+//    val positive = list.filter { x:Int->x>0};
+//    val negative = list.filter { x:Int ->x<0};
+//    println("the positive number is  $positive" );
+//    println("the negative number is $negative");
 
-
-
-
-
-
-
-
-
+//fun second(t:String): (Int) -> Unit = {
+//    val a = {v:String-> v+ "hello"};
+//    println(a);
+//    println(t);
+//}
 //open public class vichile {
 //    fun m():Boolean{
 //        println("hello this is vichile from super class");
