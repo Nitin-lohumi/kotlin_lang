@@ -1,6 +1,16 @@
 fun main(){
 
 }
+//fun ShowThetype(mayString:String?):String{
+//      if(mayString!=null&&mayString.length>0){
+//          return "the stirng is not null " +mayString;
+//      }
+//    else {
+//        return "this string is returning null value";
+//      }
+//}
+// var String_val:String? ="this is nitin lohumi";
+//        println(ShowThetype(String_val));
 //var name: String?= "this is a string but it can be null ";
 //    name =null;
 //    println("name is "+ name);
