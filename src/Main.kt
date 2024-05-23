@@ -1,11 +1,15 @@
 fun main(){
 
 }
-
+//var name: String?= "this is a string but it can be null ";
+//    name =null;
+//    println("name is "+ name);
+//if you asinged ? mark after datatype of variable then you
+// could be asigned the variable to be null variable
 //    val list = listOf(1,2,-3,4,-5,6,-7,8,-9);
 //    val positive = list.filter { x:Int->x>0};
 //    val negative = list.filter { x:Int ->x<0};
-//    println("the positive number is  $positive" );
+//    println("the positive number is $positive" );
 //    println("the negative number is $negative");
 
 //fun second(t:String): (Int) -> Unit = {
