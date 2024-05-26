@@ -1,5 +1,10 @@
 fun main(){
-
+println("Enter the name  ");
+val name:String = readln();
+    println("you Enter here is "+ name);
+    name.replace("","").let {
+        println("your name contains ${it.length} letters ");
+    }
 }
 //fun ShowThetype(mayString:String?):String{
 //      if(mayString!=null&&mayString.length>0){
@@ -21,7 +26,6 @@ fun main(){
 //    val negative = list.filter { x:Int ->x<0};
 //    println("the positive number is $positive" );
 //    println("the negative number is $negative");
-
 //fun second(t:String): (Int) -> Unit = {
 //    val a = {v:String-> v+ "hello"};
 //    println(a);
@@ -61,11 +65,9 @@ fun main(){
 //            else -> println("this is invalid action" )
 //        }
 //    };
-
 //for(number: in 10 downTo 1 step 1){
-    //     println("the 10 is less  then $number" );
+//     println("the 10 is less  then $number" );
 // }
-
 //fun sum(x:Int ,y:Int){
 //    val sum = x+y;
 //    println("the sum of the number is $sum");
@@ -75,7 +77,3 @@ fun main(){
 //    return str;
 //}
 //**** these are example and they are inside the main f
-
-
-
-
