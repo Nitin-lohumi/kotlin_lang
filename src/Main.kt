@@ -2,10 +2,12 @@ fun main(){
 println("Enter the name  ");
 val name:String = readln();
     println("you Enter here is "+ name);
-    name.replace("","").let {
+    name.replace("nitinlohumi","lohuminitinlohumi").let{
         println("your name contains ${it.length} letters ");
+        println("your name contains ${it.countDistinctCharacters()} unique charchters");
     }
 }
+fun String.countDistinctCharacters()=lowercase().toList().distinct().count();
 //fun ShowThetype(mayString:String?):String{
 //      if(mayString!=null&&mayString.length>0){
 //          return "the stirng is not null " +mayString;
