@@ -1,13 +1,33 @@
-fun main(){
-println("Enter the name  ");
-val name:String = readln();
-    println("you Enter here is "+ name);
-    name.replace("nitinlohumi","lohuminitinlohumi").let{
-        println("your name contains ${it.length} letters ");
-        println("your name contains ${it.countDistinctCharacters()} unique charchters");
-    }
+
+
+fun main() {
+
 }
-fun String.countDistinctCharacters()=lowercase().toList().distinct().count();
+
+//import  kotlin.math.PI;
+//fun toSeconds(time: String): (Int,Int) -> Int = when (time) {
+//    "hour" -> { v1,v2 -> v1 *v2}
+//    else -> { v1,v2-> v1+v2 }
+//}
+
+
+//    val timesInMinutes = listOf(2, 10, 15, 1)
+//    val min2sec = toSeconds("cas");
+//    println(min2sec(2,3));
+//    val totalTimeInSeconds = timesInMinutes.map({x:Int-> min2sec(x,x)}).sum()
+//    println("Total time is $totalTimeInSeconds secs");
+
+
+//println("Enter the name  ");
+//val name:String = readln();
+//    println("you Enter here is "+ name);
+//    name.replace("nitinlohumi","lohuminitinlohumi").let{
+//        println("your name contains ${it.length} letters ");
+//        println("your name contains ${it.countDistinctCharacters()} unique charchters");
+//    }
+
+//fun String.countDistinctCharacters()  = lowercase().toList().distinct().count();
+
 //fun ShowThetype(mayString:String?):String{
 //      if(mayString!=null&&mayString.length>0){
 //          return "the stirng is not null " +mayString;
@@ -16,6 +36,7 @@ fun String.countDistinctCharacters()=lowercase().toList().distinct().count();
 //        return "this string is returning null value";
 //      }
 //}
+
 // var String_val:String? ="this is nitin lohumi";
 //        println(ShowThetype(String_val));
 //var name: String?= "this is a string but it can be null ";
